@@ -12,4 +12,9 @@ public class QaCodersDbContext : DbContext
     {
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(QaCodersDbContext).Assembly);
     }
+
+
+    //MongoDb
+
+
 }
