@@ -1,7 +1,7 @@
 version: "3.4"
 services:
   sql-server:
-    container_name: qa-coders-sql
+    container_name: Custom_Architecture-sql
     user: root
     image: mcr.microsoft.com/mssql/server
     volumes:
